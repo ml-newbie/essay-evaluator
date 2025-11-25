@@ -4,7 +4,10 @@ from essay_evaluator import workflow
 st.set_page_config(page_title="Essay Evaluator", layout="wide")
 
 st.title("📘 AI Essay Evaluator (LangGraph + OpenAI)")
-
+st.markdown(
+                "<p style='font-size:12px;'>Created by John Merwin</p>",
+                unsafe_allow_html=True
+            )
 st.write("Write your essay or upload a file, then click **Evaluate Essay**.")
 
 # Input section
