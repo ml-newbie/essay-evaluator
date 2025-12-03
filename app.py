@@ -5,9 +5,9 @@ st.set_page_config(page_title="Essay Evaluator", layout="wide")
 
 st.title("📘 AI Essay Evaluator (LangGraph + OpenAI)")
 st.markdown(
-                "<p style='font-size:12px;'>Created by John Merwin</p>",
-                unsafe_allow_html=True
-            )
+    '<p style="font-size:10px; color:gray; text-align:center;">© 2025 John Merwin. All rights reserved.</p>',
+    unsafe_allow_html=True
+)
 st.write("Write your essay or upload a file, then click **Evaluate Essay**.")
 
 # Input section
