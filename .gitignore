@@ -3,3 +3,4 @@ venv/
 __pycache__/
 backups/
 .env
+.streamlit/secrets.toml
